@@ -964,6 +964,7 @@ class AttackUnit(Unit):
 """
 
 
+""" [다중상속]
 
 # 일반 유닛
 class Unit:
@@ -1009,7 +1010,7 @@ class FlyableAttackUnit(AttackUnit, Flyable):
 valkyrie = FlyableAttackUnit("발키리", 200, 6, 5)
 valkyrie.fly(valkyrie.name, "3시")
 
-
+"""
 
 
 
